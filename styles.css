@@ -12,6 +12,7 @@ button{
 	width:100%;
 	background-color:#2ecc71;
 }
-img{
-	align:center;
+img {
+    display: block; /* Make the image a block element */
+    margin: 0 auto; /* Center the image horizontally */
 }
