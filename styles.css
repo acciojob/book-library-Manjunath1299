@@ -16,6 +16,6 @@ img {
     display: block; /* Make the image a block element */
     margin: 0 auto; /* Center the image horizontally */
 }
-div{
-	background-color:rgb(46, 204, 113);
+.book{
+	background-color:#ffffff
 }
