@@ -1,53 +1,18 @@
-body {
-  background-color: #f8f8f8;
-  margin: 0;
-  font-family: Arial, sans-serif;
+.body{
+	background-color:#f8f8f8;
 }
-
-.book-library {
-  background-color: #ffffff;
-  padding: 20px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+.book-library{
+	background-color:#ffffff;
 }
-
-.book {
-  box-sizing: border-box;
-  width: 300px;
-  margin: 15px;
-  padding: 15px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  text-align: center;
-  transition: transform 0.3s;
+.author{
+	color:#777777;
 }
-
-.book:hover {
-  transform: scale(1.05);
+button{
+	width:100%;
+	background-color:#2ecc71;
+	margin:10px;
 }
-
-.book img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 5px;
-}
-
-.book-title {
-  margin-top: 10px;
-  font-size: 18px;
-  font-weight: bold;
-}
-
-.author {
-  color: #777777;
-  margin-top: 5px;
-}
-
-.price-block {
-  background-color: #2ecc71;
-  color: #ffffff;
-  padding: 5px;
-  border-radius: 3px;
-  margin-top: 10px;
+img {
+    display: block; /* Make the image a block element */
+    margin: 0 auto; /* Center the image horizontally */
 }
