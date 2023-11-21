@@ -9,13 +9,10 @@
 }
 button{
 	width:100%;
-	background-color:#2ecc71;
+	background-color:#2ecc70;
 	margin:10px;
 }
 img {
     display: block; /* Make the image a block element */
     margin: 0 auto; /* Center the image horizontally */
-}
-.book{
-	background-color:#f8f8f8;
 }
